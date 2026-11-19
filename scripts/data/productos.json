@@ -1,0 +1,84 @@
+[
+  {
+    "nombre": "Laptop",
+    "categoria": "Laptops",
+    "precio": 1200.50,
+    "stock": 15,
+    "especificaciones": { "ram": "16GB", "almacenamiento": "512GB SSD" },
+    "tags": ["tecnologia", "portatil", "trabajo"]
+  },
+  {
+    "nombre": "Smartphone",
+    "categoria": "Smartphones",
+    "precio": 800,
+    "stock": 50,
+    "especificaciones": { "ram": "8GB", "almacenamiento": "128GB" },
+    "tags": ["celular", "oferta"]
+  },
+  {
+    "nombre": "Monitor UltraWide",
+    "categoria": "Perifericos",
+    "precio": 350,
+    "stock": 20,
+    "especificaciones": { "resolucion": "4K", "tasa_refresco": "144Hz" },
+    "tags": ["gaming", "monitor"]
+  },
+  {
+    "nombre": "Teclado Mecánico RGB",
+    "categoria": "Perifericos",
+    "precio": 120,
+    "stock": 45,
+    "especificaciones": { "tipo_switch": "Red", "inalambrico": false },
+    "tags": ["gaming", "teclado"]
+  },
+  {
+    "nombre": "Mouse Inalámbrico",
+    "categoria": "Perifericos",
+    "precio": 45,
+    "stock": 100,
+    "especificaciones": { "dpi": 4000, "inalambrico": true },
+    "tags": ["oficina", "mouse"]
+  },
+  {
+    "nombre": "Tablet Lite",
+    "categoria": "Tablets",
+    "precio": 250,
+    "stock": 30,
+    "especificaciones": { "pantalla": "10 pulgadas", "bateria": "5000mAh" },
+    "tags": ["movil", "lectura"]
+  },
+  {
+    "nombre": "Auriculares Bluetooth",
+    "categoria": "Audio",
+    "precio": 89.99,
+    "stock": 60,
+    "especificaciones": { "cancelacion_ruido": true, "autonomia": "20 horas" },
+    "tags": ["audio", "musica"]
+  },
+  {
+    "nombre": "Consola Retro Bundle",
+    "categoria": "Gaming",
+    "precio": 150,
+    "stock": 5,
+    "tags": ["retro", "consola", "bundle"],
+    "bundle_items": ["Consola", "2 Controles", "10 Juegos preinstalados"] 
+  },
+  {
+    "nombre": "Cable HDMI 2.1",
+    "categoria": "Accesorios",
+    "precio": 15,
+    "stock": 200,
+    "garantia_meses": 24 
+  },
+  {
+    "nombre": "Silla Gamer Ergonómica",
+    "categoria": "Mobiliario",
+    "precio": 299,
+    "stock": 10,
+    "especificaciones": { "material": "Cuero sintético", "peso_maximo": "150kg" },
+    "resenas_usuarios": [
+      { "usuario": "juanp", "calificacion": 5, "comentario": "Muy cómoda" },
+      { "usuario": "mariag", "calificacion": 4, "comentario": "Fácil de armar" }
+    ]
+  }
+]
